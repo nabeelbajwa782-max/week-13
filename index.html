@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crave | Premium Food Delivery</title>
+    <meta name="description" content="Order your favorite premium meals and get them delivered to your doorstep.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Crave<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#how-it-works">How it works</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="cart-btn" id="cart-btn">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+                    <span class="cart-count" id="cart-count">0</span>
+                </button>
+                <button class="btn btn-primary nav-cta">Sign In</button>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <span class="badge">🔥 #1 Delivery App in City</span>
+            <h1>Crave it? <br>We <span class="highlight">deliver</span> it.</h1>
+            <p>Experience the finest cuisines from top-rated restaurants, delivered piping hot to your doorstep in under 30 minutes.</p>
+            <div class="hero-actions">
+                <button class="btn btn-primary btn-large">Order Now</button>
+                <button class="btn btn-outline btn-large">Explore Menu</button>
+            </div>
+            <div class="stats">
+                <div class="stat">
+                    <h4>30k+</h4>
+                    <p>Happy Customers</p>
+                </div>
+                <div class="stat">
+                    <h4>4.9</h4>
+                    <p>App Rating</p>
+                </div>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="assets/burger.png" alt="Delicious double cheeseburger" class="floating-food">
+            <div class="glass-card review-card">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p>"Best burger I've ever had! Arrived hot."</p>
+                <small>- Sarah J.</small>
+            </div>
+        </div>
+    </header>
+
+    <section id="categories" class="categories">
+        <div class="section-header">
+            <h2>What are you craving?</h2>
+            <p>Explore our wide variety of premium cuisines.</p>
+        </div>
+        <div class="category-grid" id="category-grid">
+            <!-- Categories injected via JS -->
+        </div>
+    </section>
+
+    <section id="menu" class="featured-menu">
+        <div class="section-header">
+            <h2>Trending near you</h2>
+            <p>Hand-picked favorites from our top culinary partners.</p>
+        </div>
+        <div class="menu-grid" id="menu-grid">
+            <!-- Meals injected via JS -->
+        </div>
+        <div class="center-btn">
+            <button class="btn btn-outline">View Full Menu</button>
+        </div>
+    </section>
+
+    <section id="how-it-works" class="how-it-works">
+        <div class="hiw-container glass-container">
+            <h2>How it works</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-icon">📱</div>
+                    <h3>Choose</h3>
+                    <p>Browse our curated menu and select your favorites.</p>
+                </div>
+                <div class="step">
+                    <div class="step-icon">💳</div>
+                    <h3>Pay</h3>
+                    <p>Secure checkout with multiple payment options.</p>
+                </div>
+                <div class="step">
+                    <div class="step-icon">🛵</div>
+                    <h3>Receive</h3>
+                    <p>Real-time tracking until it reaches your door.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <a href="#" class="logo">Crave<span>.</span></a>
+                <p>Delivering happiness, one meal at a time. Premium quality food, unmatched speed.</p>
+            </div>
+            <div class="footer-links">
+                <div class="link-group">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="link-group">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Crave Delivery. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
